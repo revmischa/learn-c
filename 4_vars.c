@@ -13,6 +13,9 @@ int main() {
     printf("Char (c): %c\n", c);
     printf("Integer (c): %i\n", c);
 
+    c = 66;  // 66 = ASCII code for 'B'
+    printf("Char (c): %c\n", c);
+
     exit_status = 0;
     return exit_status;    
 }
